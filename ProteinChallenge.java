@@ -14,7 +14,7 @@
 
 
 //Checks if string is a valid dna sequence
-public class DNA {
+public class ProteinChallenge {
 
     public static void main(String[] args) {
 
@@ -32,17 +32,12 @@ public class DNA {
         //check for start and endcodon
         if (dna.indexOf("ATG") != -1
                 && dna.indexOf("TGA") != -1
-                && (dna.indexOf("TGA")-dna.indexOf("ATG")) % 3 == 0
-        ){
+                && (dna.indexOf("TGA") - dna.indexOf("ATG")) % 3 == 0
+        ) {
             System.out.println("Protien!");
-        }
-        else {
+        } else {
             System.out.println("Not a valid protien :(");
         }
-        //  -. .-.   .-. .-.   .
-        //    \   \ /   \   \ /
-        //   / \   \   / \   \
-        //  ~   `-~ `-`   `-~ `-
 
     }
 
