@@ -15,7 +15,7 @@
 
 //Checks if string is a valid dna sequence
 public class ProteinChallenge {
-
+//test comment push
     public static void main(String[] args) {
 
         String dna1 = "ATGCGATACGCTTGA";
